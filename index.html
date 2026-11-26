@@ -6,7 +6,7 @@
 <meta name="color-scheme" content="light dark">
 <meta name="description" content="Live rope access jobs for IRATA technicians — browse by area, trade and level, and apply direct.">
 <link rel="icon" href="data:,">
-<title>Rope Access Jobs Board — 63 Live Jobs</title>
+<title>Rope Access Jobs Board — 65 Live Jobs</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -111,12 +111,12 @@ button,select,input{min-height:44px}
 <header class="hero">
   <div class="hero-inner">
     <div class="hero-copy">
-      <span class="kicker"><i></i> Live now • 63 jobs</span>
+      <span class="kicker"><i></i> Live now • 65 jobs</span>
       <h1>Rope Access <span>Jobs Board</span></h1>
       <p class="lead">Live work for IRATA technicians across the UK and offshore. Filter by area, trade and level, then apply direct using the contact details on each job.</p>
       <div class="hero-stats">
-        <div class="stat"><b>63</b><span>Live jobs</span></div>
-        <div class="stat"><b>10</b><span>Areas</span></div>
+        <div class="stat"><b>65</b><span>Live jobs</span></div>
+        <div class="stat"><b>11</b><span>Areas</span></div>
         <div class="stat"><b>L1–L3</b><span>All levels</span></div>
       </div>
       <p style="margin:16px 0 0;font-size:14px;color:#B9BEC3">From the <strong style="color:#fff">IRATA UK Rope Access Technicians</strong> group • Updated 26 November 2026 • Auto-updates on</p>
@@ -143,7 +143,7 @@ button,select,input{min-height:44px}
         <select id="fLoc">
           <option value="">All locations</option>
           <option>London</option><option>Midlands</option><option>North East</option><option>North West</option>
-          <option>Scotland</option><option>South East</option><option>South West</option><option>Yorkshire</option>
+          <option>Scotland</option><option>South East</option><option>South West</option><option>Wales</option><option>Yorkshire</option>
           <option>Offshore UK</option><option>Anywhere</option>
         </select>
       </div>
@@ -175,12 +175,31 @@ button,select,input{min-height:44px}
       <button class="chip" data-quick="North West" aria-pressed="false">North West</button>
       <button class="chip" data-quick="South East" aria-pressed="false">South East</button>
       <button class="chip" data-quick="Yorkshire" aria-pressed="false">Yorkshire</button>
+      <button class="chip" data-quick="Wales" aria-pressed="false">Wales</button>
     </div>
   </div>
 </div>
 
 <main class="main">
   <div class="jobs" id="jobsGrid">
+    <!-- new -->
+    <article class="card" data-location="South West" data-trade="Rope access general" data-levels="L1 L3" data-search="sas rope rail level 3 l1 deveg de-vegetation pts par cornwall railway bridge wing walls trial hole">
+      <div class="card-top"><span class="pill loc">📍 Par, Cornwall</span><span class="pill">Rope access general</span><span class="pill level">L3 + L1</span></div>
+      <h3>IRATA De-Vegetation — Railway Bridge — Par</h3><p class="company">SAS Rope &amp; Rail Ltd</p>
+      <div class="meta"><div>🗓 Sun 29 Nov 2026, 13:15–19:15</div><div>💷 £400 (L3) &amp; £300 (L1)</div></div>
+      <p class="desc">Level 3 + Level 1 de-veg ops with kit, PTS essential. IRATA de-vegetation of wing walls on a railway bridge, plus trial hole digging (client provides digging equipment).</p>
+      <div class="apply"><p class="apply-label">Apply direct</p><div class="apply-actions"><a class="btn btn-call" href="tel:+447596321722">📞 07596 321722</a></div><p class="contact-line">DM Alex, SAS Rope &amp; Rail — 07596 321722</p></div>
+    </article>
+
+    <!-- new -->
+    <article class="card" data-location="Wales" data-trade="Rope access general" data-levels="L3" data-search="sas rope rail level 3 pts swansea wales railway signal post structural examinations">
+      <div class="card-top"><span class="pill loc">📍 Swansea, Wales</span><span class="pill">Rope access general</span><span class="pill level">L3</span></div>
+      <h3>Level 3 Support — Structural Examinations — Swansea</h3><p class="company">SAS Rope &amp; Rail Ltd</p>
+      <div class="meta"><div>🗓 Sat night 28 Nov 2026</div><div>💷 £400</div></div>
+      <p class="desc">Level 3 support for structural examinations on a railway signal post, PTS essential. Saturday night work in Swansea, South Wales.</p>
+      <div class="apply"><p class="apply-label">Apply direct</p><div class="apply-actions"><a class="btn btn-call" href="tel:+447596321722">📞 07596 321722</a></div><p class="contact-line">DM Alex, SAS Rope &amp; Rail — 07596 321722</p></div>
+    </article>
+
     <!-- new -->
     <article class="card" data-location="Anywhere" data-trade="Off the ropes" data-levels="L1 L2 L3" data-search="ersg offshore wind taiwan 2027 hv sap blade repair mechanical technician warehouse coordinator authorised technician">
       <div class="card-top"><span class="pill loc">📍 Taiwan</span><span class="pill">Off the ropes</span><span class="pill level">Any level</span></div>
@@ -750,7 +769,7 @@ button,select,input{min-height:44px}
 
   <div class="empty" id="emptyState">
     <b>No jobs match those filters</b>
-    <p style="margin:8px 0 0;color:var(--muted)">Try a different area or trade, or clear the filters to see all 63 jobs again.</p>
+    <p style="margin:8px 0 0;color:var(--muted)">Try a different area or trade, or clear the filters to see all 65 jobs again.</p>
     <button class="btn btn-web" id="emptyClear" type="button" style="margin-top:14px">Show all jobs</button>
   </div>
 </main>
